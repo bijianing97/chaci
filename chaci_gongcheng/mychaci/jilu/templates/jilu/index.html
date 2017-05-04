@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>
+Word Record
+</title>
+<body>
+<h1>单词列表</h1>
+<h2>
+<ol>
+{% for danci in dancilist %}
+<td>{{ danci.name }} {{ danci.number }}</td><br/>
+{% endfor %}
+</ol>
+</h2>
+</body>
+</head>
+</html>
